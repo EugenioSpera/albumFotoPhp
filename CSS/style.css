@@ -1,0 +1,44 @@
+
+h1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+h1:hover{
+
+    background-color: grey;
+}
+
+form{
+    display: flex;
+    font-size: 1rem;
+    margin: 50px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+
+.gallery img {
+    width: 19%;
+    margin: 0.5%;
+    transition: transform 0.2s;
+
+}
+
+.gallery img:hover{
+    transform: scale(1.5);
+    
+}
+
+.label {
+    visibility: hidden;
+  }
